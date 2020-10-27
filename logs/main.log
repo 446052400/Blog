@@ -1,0 +1,7 @@
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-24 20:59:50; autoreload.py:598)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-24 20:59:57; views.py:9)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-24 20:59:57; views.py:14)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 11:30:56; autoreload.py:598)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-25 11:31:05; views.py:9)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-25 11:31:05; views.py:14)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/settings.py changed, reloading. (2020-10-25 11:31:25; autoreload.py:222)

@@ -1,0 +1,1407 @@
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 14:56:46; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 14:56:51; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 22, in message
+    uplist=message.objects.all()
+AttributeError: 'function' object has no attribute 'objects'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:00:15; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:00:15; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:00:17; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/models.py changed, reloading. (2020-10-25 15:00:44; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:00:44; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:00:45; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:01:08; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:01:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:01:10; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:02:00; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:02:00; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:02:01; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 15:02:32; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 23, in message
+    uplist= message.m_sbmit
+AttributeError: 'function' object has no attribute 'm_sbmit'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:03:53; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:03:53; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:03:55; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:04:02; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:04:02; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:04:03; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:04:13; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:04:13; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:04:15; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:05:59; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:05:59; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:06:00; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:08:51; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:08:51; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:08:53; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:09:04; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:09:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:09:05; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:09:23; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:09:23; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:09:24; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:09:37; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:09:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:09:39; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:10:46; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:10:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:10:47; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:12:10; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:12:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:12:12; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:12:25; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:12:25; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:12:27; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:12:54; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:12:54; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:12:56; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:13:07; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:13:07; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:13:09; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:14:19; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:14:19; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:14:20; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:18:13; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:18:13; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:18:15; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 15:19:00; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 32, in message
+    return render(request,'message.html',message_list)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 15:19:04; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 32, in message
+    return render(request,'message.html',message_list)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:19:15; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:19:15; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:19:17; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/models.py changed, reloading. (2020-10-25 15:21:34; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:21:34; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:21:36; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/models.py changed, reloading. (2020-10-25 15:21:37; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:21:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:21:38; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-25 15:23:27; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:23:27; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:23:29; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-25 15:23:41; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:23:41; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:23:42; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-25 15:24:05; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:24:05; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:24:06; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-25 15:24:44; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:24:44; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:24:47; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-25 15:24:53; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 18, in message_board_submit
+    Message.save()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1384, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'time' in 'field list'")
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:25:08; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:25:08; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:25:39; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:27:13; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:27:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:27:28; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-25 15:27:36; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 18, in message_board_submit
+    Message.save()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1384, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/models.py changed, reloading. (2020-10-25 15:28:06; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:28:06; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:28:06; autoreload.py:598)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:29:24; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:29:24; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:29:28; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:29:30; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:29:35; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-25 15:29:43; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 18, in message_board_submit
+    Message.save()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1384, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:31:10; selector_events.py:58)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/migrations/0001_initial.py changed, reloading. (2020-10-25 15:31:11; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:31:11; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:31:12; autoreload.py:598)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:31:14; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:32:53; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:32:53; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:34:14; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:34:24; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:35:15; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:35:18; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:35:47; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:36:00; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:36:25; autoreload.py:598)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-25 15:37:10; views.py:11)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-25 15:37:10; views.py:16)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-25 15:37:16; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 18, in message_board_submit
+    Message.save()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1384, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blog.message_message' doesn't exist")
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:11; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:11; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:21; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:25; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:30; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:34; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:38:42; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:40:19; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:40:26; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:41:50; autoreload.py:598)
+INFO:message.views: 留言添加成功，添加留言内容123 (2020-10-25 15:41:58; views.py:19)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:44:44; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:44:45; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:45:44; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:45:51; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:48:28; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:54:33; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:54:33; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:54:35; autoreload.py:598)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 15:55:30; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 32, in message
+    return render(request,'message.html',message_list)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+INFO:message.views: 留言添加成功，添加留言内容qwewq (2020-10-25 15:55:48; views.py:19)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-25 15:55:48; log.py:228)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 32, in message
+    return render(request,'message.html',message_list)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-25 15:56:47; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 15:56:47; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-25 15:56:49; autoreload.py:598)
+INFO:message.views: 留言添加成功，添加留言内容测试<br> (2020-10-25 16:01:47; views.py:19)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-25 16:12:45; views.py:11)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-25 16:12:45; views.py:16)
+INFO:message.views: 留言添加成功，添加留言内容<br> (2020-10-25 16:13:29; views.py:19)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 16:14:47; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-25 16:14:47; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:17:36; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:19:42; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:19:42; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:19:44; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:20:59; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:20:59; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:21:01; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:21:20; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:21:20; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:21:22; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:21:27; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:21:27; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:21:28; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:21:58; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:21:58; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:22:00; autoreload.py:598)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-26 10:22:09; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:22:09; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:22:10; autoreload.py:598)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:28:37; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:28:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 10:57:00; autoreload.py:598)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-26 10:57:11; views.py:11)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-26 10:57:11; views.py:16)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:57:16; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 10:57:16; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 14:31:54; autoreload.py:598)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:81.0) Gecko/20100101 Firefox/81.0 (2020-10-26 14:31:59; views.py:11)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-26 14:31:59; views.py:16)
+INFO:message.views: 留言添加成功，添加留言内容王狗狗<br> (2020-10-26 14:33:09; views.py:19)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-26 14:35:22; autoreload.py:222)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 14:35:22; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-26 14:35:25; autoreload.py:598)
+INFO:message.views: 留言添加成功，添加留言内容123123123 (2020-10-26 14:35:27; views.py:20)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 14:35:52; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-26 14:35:52; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:20:14; autoreload.py:613)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:23:01; autoreload.py:613)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:24:09; autoreload.py:613)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:25:24; autoreload.py:613)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:29:36; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/__init__.py changed, reloading. (2020-10-27 11:29:59; autoreload.py:236)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:30:01; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 11:30:01; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:30:03; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 11:30:06; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 11:30:06; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:30:17; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/__init__.py changed, reloading. (2020-10-27 11:30:31; autoreload.py:236)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:30:32; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-27 11:35:32; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'editor_Content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 19, in message_board_submit
+    Message.save()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/base.py", line 935, in _do_insert
+    using=using, raw=raw,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'editor_Content' cannot be null")
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 11:35:46; views.py:11)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 11:35:46; views.py:16)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:37:36; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'message' object is not iterable
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:37:40; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'message' object is not iterable
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:37:51; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'message' object is not iterable
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 11:39:09; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 11:39:09; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:39:11; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 11:39:14; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 11:39:17; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:54:00; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 67: 'for'. Looking for one of: empty, endfor.
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:54:04; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 67: 'for'. Looking for one of: empty, endfor.
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:54:34; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 67: 'for'. Looking for one of: empty, endfor.
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 11:54:42; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in message
+    return render(request,'message.html',content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 67: 'for'. Looking for one of: empty, endfor.
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-27 12:13:31; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:13:31; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:13:33; autoreload.py:613)
+INFO:message.views: 留言添加成功，添加留言内容测试text (2020-10-27 12:13:50; views.py:20)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:19:52; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:19:52; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:21:04; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:26:57; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:27:04; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:29:34; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:29:43; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:29:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:33:11; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:33:48; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:33:48; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:33:50; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:34:29; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:34:29; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:34:30; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:34:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:34:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:34:50; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:35:31; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:35:31; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:35:32; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:35:39; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:35:39; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:35:40; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:36:13; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:36:13; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:36:14; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:46:33; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:46:42; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:46:47; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:47:17; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:47:17; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:47:18; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:47:22; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:48:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:48:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:48:22; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 12:48:30; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 12:48:30; views.py:17)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:48:32; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:49:03; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:49:03; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:49:04; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:49:15; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 25, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'django.db.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:49:21; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 36, in diary
+    my_diarys=models.diary.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'diary'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:49:46; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:49:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:49:47; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:49:51; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 37, in diary
+    my_diarys=models.diary.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'diary'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:50:23; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:50:23; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:50:24; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:50:33; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 26, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:51:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:51:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:51:13; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:51:29; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:51:29; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:51:30; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:51:33; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:51:39; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:51:39; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:51:41; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:51:55; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:51:55; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:51:57; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:52:01; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:52:01; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:52:02; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:52:04; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 28, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:52:08; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 28, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:53:18; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:53:18; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:53:19; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:53:57; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:54:21; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:54:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:55:26; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:55:29; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in diary
+    my_diarys=models.diary.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'diary'
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:55:34; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'django.db.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:55:37; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in diary
+    my_diarys=models.diary.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'diary'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:55:48; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:55:48; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:55:50; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:55:50; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 34, in diary
+    my_diarys=models.diary.objects.all()
+AttributeError: module 'message.models' has no attribute 'diary'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:55:57; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:55:57; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:55:59; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:56:02; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:57:17; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/settings.py changed, reloading. (2020-10-27 12:57:48; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:57:48; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:57:49; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:57:54; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:57:56; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/settings.py changed, reloading. (2020-10-27 12:58:07; autoreload.py:236)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:58:08; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:58:51; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:58:51; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:58:52; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 12:59:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:59:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:59:10; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 12:59:16; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/my_bloy/views.py", line 27, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'diary.models' has no attribute 'message'
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 12:59:18; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/diary/views.py", line 5, in diary
+    my_diarys=models.diary.objects.all()
+NameError: name 'models' is not defined
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 12:59:40; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:59:40; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:59:41; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 12:59:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 12:59:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 12:59:50; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 13:00:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:00:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:00:12; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/urls.py changed, reloading. (2020-10-27 13:00:39; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:00:39; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:00:40; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 13:01:01; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:01:01; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:01:02; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message/ (2020-10-27 13:01:16; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 13, in message
+    message_list = models.message.objects.filter(state=2).all()
+AttributeError: module 'django.db.models' has no attribute 'message'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-27 13:01:34; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:01:34; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:01:36; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 13:01:53; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 13:01:53; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 13:02:35; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 13:02:35; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 13:05:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:05:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:05:12; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 13:05:28; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:05:28; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:05:30; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-27 13:06:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:06:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:06:22; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 13:08:29; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:08:29; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:08:31; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 13:09:03; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:09:03; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 13:09:03; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 13:14:58; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 13:14:58; views.py:17)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 13:17:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:06:05; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:06:35; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:06:35; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:09:13; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:09:22; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:09:22; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:09:36; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 14:10:49; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 14:10:49; views.py:17)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:14:30; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:14:30; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:17:08; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:17:45; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:17:45; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:17:47; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:18:07; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:18:07; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:18:08; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:19:05; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:19:05; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:19:07; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:19:08; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:19:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:19:10; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/diary/ (2020-10-27 14:19:16; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/diary/views.py", line 5, in diary
+    my_diarys=models.diary.objects.all().order_by("name")
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/query.py", line 1134, in order_by
+    obj.query.add_ordering(*field_names)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1919, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1482, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: data, id, my_message, year
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:19:23; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:19:23; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:19:24; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:20:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:20:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:20:14; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:20:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:20:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:20:23; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/diary/views.py changed, reloading. (2020-10-27 14:22:24; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:22:24; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:22:26; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:47:36; selector_events.py:58)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 14:47:43; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:47:43; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:47:44; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 14:47:46; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:47:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:47:47; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/urls.py changed, reloading. (2020-10-27 14:48:46; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:48:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:48:48; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/urls.py changed, reloading. (2020-10-27 14:49:00; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:49:00; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:49:01; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/Blog/settings.py changed, reloading. (2020-10-27 14:49:17; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:49:17; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:49:18; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 14:49:50; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:49:50; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:49:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 14:49:58; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:49:58; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:49:59; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/views.py changed, reloading. (2020-10-27 14:50:05; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:05; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:50:06; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:16; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:16; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:50:20; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 14:50:39; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:39; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:50:40; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 14:50:42; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:42; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:50:43; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-27 14:50:56; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:50:56; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:50:57; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 14:51:03; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 14:51:03; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:52:16; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:52:16; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:52:17; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:52:39; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:52:39; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:52:40; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:52:44; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:52:44; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:52:45; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:53:29; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:53:29; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:53:30; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:56:04; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:56:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:56:05; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:56:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:56:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:56:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:57:20; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:57:20; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:57:22; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:59:38; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:59:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:59:40; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 14:59:53; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 14:59:53; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 14:59:54; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:00:06; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:00:06; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:00:07; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:00:52; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:00:52; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:00:53; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:02:30; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:02:30; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:02:31; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:03:19; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:03:19; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:03:20; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:05:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:05:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:05:23; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:05:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:05:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:05:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:05:55; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:05:55; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:05:56; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:10:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:10:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:10:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:11:17; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:11:17; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:11:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:15:33; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:15:33; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:15:35; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:16:47; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:16:47; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:16:49; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 15:19:14; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:14; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:19:16; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:20; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:20; selector_events.py:58)
