@@ -24,7 +24,7 @@ def message_board_submit(request):
     editor_Content = get.get('editorContent')
     print(editor_Content)
     times =time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    Message = message()
+    Message = models.message()
     Message.editor_Content=editor_Content
     Message.times = times
     Message.save()

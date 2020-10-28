@@ -1405,3 +1405,522 @@ DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:14; selector_eve
 INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 15:19:16; autoreload.py:613)
 DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:20; selector_events.py:58)
 DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 15:19:20; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:10:56; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 22:11:19; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 22:11:19; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 22:40:41; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:40:41; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:40:43; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 22:40:58; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:40:58; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:41:00; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 22:41:04; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:41:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:41:06; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:44:01; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:44:01; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:46:32; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:46:40; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:49:51; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:49:54; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:51:38; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:53:32; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:53:32; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:53:34; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:53:38; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:53:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:53:39; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 22:53:42; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 6, in article
+    data=models.article.data()
+TypeError: 'DeferredAttribute' object is not callable
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:55:46; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:55:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:55:48; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:56:01; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:56:01; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:56:03; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:56:37; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:56:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:56:38; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 22:56:40; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 6, in article
+    data=models.article.objects(data='data')
+TypeError: 'Manager' object is not callable
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:57:04; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:57:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:57:05; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 22:57:06; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 6, in article
+    data=models.article.objects(data='')
+TypeError: 'Manager' object is not callable
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:57:24; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:57:24; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:57:24; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 22:57:28; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 6, in article
+    data=models.article.objects(data='').all()
+TypeError: 'Manager' object is not callable
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 22:57:41; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 22:57:41; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 22:57:42; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:02:08; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:02:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:02:10; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:02:44; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:02:44; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:02:46; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:02:58; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:02:58; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:02:59; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:06:42; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:06:42; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:06:44; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:07:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:07:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:07:11; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:08:44; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:08:44; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:08:46; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 23:08:49; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 7, in article
+    a=datas.splist(1,2)
+AttributeError: 'QuerySet' object has no attribute 'splist'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:09:23; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:09:23; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:09:24; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 23:12:32; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:12:32; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:12:34; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 23:12:46; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:12:46; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:12:47; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/models.py changed, reloading. (2020-10-27 23:12:57; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:12:57; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:12:57; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:13:05; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:13:12; selector_events.py:58)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:15:05; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:15:05; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:15:06; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:15:24; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:15:24; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:15:25; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/my_bloy/urls.py changed, reloading. (2020-10-27 23:28:08; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:28:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:28:10; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-27 23:28:19; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:28:19; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:28:20; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 23:31:16; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 23:31:16; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-27 23:33:18; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-27 23:33:18; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:35:05; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:35:05; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:35:07; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/article/ (2020-10-27 23:35:09; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 7, in article
+    article_list=models.article.objects.all(lebel = a)
+TypeError: all() got an unexpected keyword argument 'lebel'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:35:56; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:35:56; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:35:57; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:36:30; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:36:30; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:36:30; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:36:38; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:36:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:36:38; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:36:50; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:36:50; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:36:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:37:19; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:37:19; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:37:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-27 23:37:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:37:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-27 23:37:22; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:45:30; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-27 23:45:31; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:19:46; autoreload.py:613)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:19:46; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:19:46; selector_events.py:58)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 11:20:02; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 11:20:02; views.py:17)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:25:43; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:25:43; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:26:43; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-28 11:29:02; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:29:02; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:29:04; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:29:53; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:29:53; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:29:54; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:30:29; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:30:29; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:30:30; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:32:17; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:32:17; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:32:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:32:45; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:32:45; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:32:46; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:33:06; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:33:06; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:33:06; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:33:49; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:33:49; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:33:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:34:00; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:34:00; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:34:00; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:34:51; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:34:51; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:34:51; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 11:35:30; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    return render(request,'read.html'+PageSize,content)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: read.html1
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:35:45; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:35:45; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:35:46; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:38:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:38:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:38:14; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 11:38:26; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 11:38:26; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 11:39:26; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 11:39:26; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 11:39:27; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:22:27; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:22:27; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:22:29; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 12:35:09; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 12:35:09; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 12:42:25; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 12:42:25; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 12:42:52; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 12:42:52; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 12:43:46; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 12:43:46; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 12:44:18; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 12:44:18; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-28 12:53:42; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:53:42; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:53:44; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-28 12:54:18; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:54:18; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:54:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-28 12:54:51; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:54:51; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:54:52; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:55:18; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:55:18; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:55:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:56:13; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:56:13; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:56:14; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:56:38; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:56:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:56:39; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:56:47; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:56:47; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:56:48; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:58:14; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:58:14; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:58:15; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:58:30; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:58:30; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:58:31; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 12:58:48; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 12:58:48; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 12:58:50; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:00:36; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:00:36; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:00:38; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:01:47; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:01:47; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:01:48; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:06:13; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:06:13; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:06:15; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:06:23; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:06:23; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:06:24; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-28 13:07:31; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 27, in message_board_submit
+    Message = message()
+TypeError: message() missing 1 required positional argument: 'request'
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-28 13:07:56; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 27, in message_board_submit
+    Message = message()
+TypeError: message() missing 1 required positional argument: 'request'
+ERROR:django.request: Internal Server Error: /blog/message_board_submit/ (2020-10-28 13:08:16; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/message/views.py", line 27, in message_board_submit
+    Message = message()
+TypeError: message() missing 1 required positional argument: 'request'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-28 13:09:34; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:09:34; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:09:36; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/message/views.py changed, reloading. (2020-10-28 13:10:08; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:10:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:10:09; autoreload.py:613)
+INFO:message.views: 留言添加成功，添加留言内容12313123 (2020-10-28 13:10:14; views.py:31)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:11:09; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:11:09; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:11:10; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:13:35; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:13:35; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:13:36; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:24:01; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:24:01; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:24:02; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/urls.py changed, reloading. (2020-10-28 13:24:04; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:24:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:24:05; autoreload.py:613)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 13:24:28; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 13:24:28; views.py:17)
+INFO:my_bloy.views: 设备信息:Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:82.0) Gecko/20100101 Firefox/82.0 (2020-10-28 13:24:38; views.py:12)
+INFO:my_bloy.views: 访问ip:127.0.0.1 (2020-10-28 13:24:38; views.py:17)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:25:16; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:25:16; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:25:17; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:26:50; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:26:50; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:26:51; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:28:04; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:28:04; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:28:05; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:31:15; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:31:15; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:31:17; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:32:37; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:32:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:32:39; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:35:15; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:35:15; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:35:17; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:36:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:36:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:36:14; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:36:21; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:36:21; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:36:22; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:36:29; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 12, in read
+    reads_num=reads+1
+TypeError: can only concatenate str (not "int") to str
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:36:38; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:36:38; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:36:39; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:36:59; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:36:59; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:37:01; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:37:07; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 12, in read
+    reads_num=reads+1
+TypeError: can only concatenate str (not "int") to str
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:37:55; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:37:55; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:37:57; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:38:37; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:38:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:38:39; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:38:52; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:38:52; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:38:54; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:38:58; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    models.article.objects.get(id=PageSize).updata(reads=reads_num)
+AttributeError: 'article' object has no attribute 'updata'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:42:06; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:42:06; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:42:08; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:42:12; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    reads=models.article.objects.get(id=PageSize).updata(reads=reads_num)
+AttributeError: 'article' object has no attribute 'updata'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:47:55; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:47:55; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:47:57; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:48:09; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    models.article.objects.get(id=PageSize).updata(reads=reads_num)
+AttributeError: 'article' object has no attribute 'updata'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:48:37; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:48:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:48:39; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:48:46; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    models.article.objects.get(id=PageSize).update(reads=reads_num)
+AttributeError: 'article' object has no attribute 'update'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:49:31; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:49:31; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:49:32; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:49:36; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 14, in read
+    models.article.objects.get(id=PageSize).update(reads=reads_num)
+AttributeError: 'article' object has no attribute 'update'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:49:58; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:49:58; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:50:00; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:54:17; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:54:17; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:54:19; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:55:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:55:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:55:14; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:55:16; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 13, in read
+    a=models.article.objects.get(id=PageSize)._do_update(reads=reads_num)
+TypeError: _do_update() got an unexpected keyword argument 'reads'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:55:37; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:55:37; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:55:38; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 13:55:43; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 13, in read
+    a=models.article.objects.get(id=PageSize).update(reads='0')
+AttributeError: 'article' object has no attribute 'update'
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:57:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:57:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:57:12; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:57:14; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:57:14; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:57:15; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:57:52; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:57:52; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:57:54; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:59:08; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:59:08; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:59:10; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 13:59:12; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 13:59:12; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 13:59:13; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 14:00:16; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:00:16; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 14:00:18; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 14:00:20; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:00:20; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 14:00:21; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 14:00:42; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:00:42; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 14:00:43; autoreload.py:613)
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 14:00:54; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:00:54; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 14:00:55; autoreload.py:613)
+ERROR:django.request: Internal Server Error: /blog/read/1/ (2020-10-28 14:00:56; log.py:230)
+Traceback (most recent call last):
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/liangshixiong/Adder/lib/python3.7/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/gm/Blog/article/views.py", line 16, in read
+    models.article.objects.filter(id=PageSize).update(reads=reads+1)
+TypeError: can only concatenate str (not "int") to str
+INFO:django.utils.autoreload: /Volumes/gm/Blog/article/views.py changed, reloading. (2020-10-28 14:01:10; autoreload.py:236)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:01:10; selector_events.py:58)
+INFO:django.utils.autoreload: Watching for file changes with StatReloader (2020-10-28 14:01:11; autoreload.py:613)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:04:17; selector_events.py:58)
+DEBUG:asyncio: Using selector: KqueueSelector (2020-10-28 14:04:17; selector_events.py:58)

@@ -5,6 +5,6 @@ urlpatterns = [
     #首页
     url(r'^index/$',views.index),
     #友链
-    url(r'link/$',views.link),
+    url(r'^link/$',views.link),
 
 ]

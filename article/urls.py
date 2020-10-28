@@ -5,5 +5,7 @@ urlpatterns = [
     #博客
     url(r'^article/$',views.article),
     #读
-    url(r'read/$',views.read)
+    url(r'^read/(\d+)/$',views.read),
+    #搜索
+    # url(r'^search/$',views.search)
 ]
